@@ -1,42 +1,135 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuestros Servicios - EZKALIBUR</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiénes Somos - EZKALIBUR</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: black;
+      color: white;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: black;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      padding: 5px 10px;
+    }
+
+    nav ul li a:hover {
+      background-color: gold;
+      color: black;
+    }
+
+    .logo {
+      text-align: start; /* Alineación del logo a la izquierda */
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px; /* Espacio izquierdo para el logo */
+    }
+
+    .logo img {
+      max-width: 5%; /* Tamaño máximo del logo al 5% del ancho de la página */
+      height: auto;
+    }
+
+    .section {
+      padding: 50px;
+      text-align: left;
+      margin: 0 auto;
+      max-width: 800px;
+    }
+
+    .section h2 {
+      color: gold;
+    }
+
+    .section p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .section ul {
+      text-align: left;
+      margin-top: 20px;
+      padding-left: 20px;
+    }
+
+    .section img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="inicio.html">Inicio</a></li>
-                <li><a href="quienes-somos.html">Quienes Somos</a></li>
-                <li><a href="nuestros-servicios.html">Nuestros Servicios</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-        <div class="logo">
-            <img src="https://cdn.pixabay.com/photo/2024/06/16/19/12/ai-generated-8834203_960_720.png" alt="EZKALIBUR" style="max-width: 5%; height: auto;">
-        </div>
-    </header>
+  <header>
+    <div class="logo">
+      <img src="https://cdn.pixabay.com/photo/2024/06/16/19/12/ai-generated-8834203_960_720.png" alt="EZKALIBUR">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="quienes-somos.html">Quienes Somos</a></li>
+        <li><a href="nuestros-servicios.html">Nuestros Servicios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section id="nuestros-servicios" class="section">
-        <h2>Nuestros Productos para Mantenimiento</h2>
-        <ul>
-            <li>Limpiadores y desengrasantes especializados</li>
-            <li>Aceites lubricantes para maquinaria</li>
-            <li>Herramientas de mantenimiento preventivo</li>
-            <li>Kits de repuestos y consumibles</li>
-            <li>Equipos de protección personal (EPP)</li>
-            <li>Productos para la limpieza y mantenimiento de instalaciones</li>
-        </ul>
-        <p>Ofrecemos una amplia gama de productos diseñados para mantener en óptimas condiciones sus equipos e instalaciones.</p>
-        <a href="contacto.html" class="btn-solicitar-presupuesto">Solicitar presupuesto</a>
+  <main>
+    <section id="quienes-somos" class="section">
+      <h2>Quiénes Somos</h2>
+      <p>En EZKALIBUR, nos caracterizamos por:</p>
+      <ul>
+        <li><strong>Ofrecer un servicio integral:</strong> Brindamos soluciones completas para el cuidado de sus equipos, desde el mantenimiento preventivo hasta la reparación de fallas complejas.</li>
+        <li><strong>Atención personalizada:</strong> Nos tomamos el tiempo para conocer sus necesidades y ofrecerle la mejor solución para su equipo.</li>
+        <li><strong>Precios justos:</strong> Mantenemos precios competitivos sin comprometer la calidad de nuestro servicio.</li>
+        <li><strong>Compromiso con la excelencia:</strong> Nos esforzamos por brindar un servicio de la más alta calidad, superando las expectativas de nuestros clientes.</li>
+      </ul>
+      <p>En EZKALIBUR, creemos que la tecnología debe estar al servicio de las personas. Por eso, nos enfocamos en brindarle un servicio confiable, eficiente y amigable, para que usted pueda disfrutar de sus equipos sin preocupaciones.</p>
+      <img src="https://cdn.pixabay.com/photo/2024/05/26/09/42/woman-8788449_960_720.png" alt="Imagen del equipo EZKALIBUR">
     </section>
+  </main>
 
-    <img src="https://cdn.pixabay.com/photo/2024/04/22/17/21/ai-generated-8713149_960_720.png" alt="Imagen Final" style="display:block; margin:auto; margin-top:20px; max-width:100%;" />
-    
-         <p>&copy; 2024 EZKALIBUR. Todos los derechos reservados.</p>
+  
+    <p>&copy; 2024 EZKALIBUR. Todos los derechos reservados.</p>
+  
 </body>
 </html>
